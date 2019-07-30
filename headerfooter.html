@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+	<head>
+		<title>StudentBank-Internet Banking</title>
+		<link rel="shortcut icon" href="images/sblogo.jpg" />
+		<meta name=="viewport" content="width=device-width , initial-scale=1">
+		<style>
+			body
+			{
+				width: 1340px;
+				border: 100px;
+				padding: 2px;
+				margin: 9px;
+			}
+			
+			header
+			{
+				background-color: #2F4A63;
+			}
+			
+			h1
+			{
+				text-align: center;
+			}
+			#logo
+			{
+				position: absolute;
+			}
+			#Menu li
+			{
+			        display:inline;
+			        padding:5px;
+			        padding-left:150px;
+			}
+			footer
+			{
+				background-color: #2F4A63;
+				color:white;
+				clear: left;
+				text-align: right;
+			}
+			
+			span a
+			{ 
+				color: white;
+			}
+			
+			ul
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+			
+			li {float: left;}
+			
+			li a, .dropbtn
+			{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			
+			li a:hover , .dropdown:hover .dropbtn
+			{ background-color: #2F4A63;}
+			
+			li	.dropdown
+			{display: inline-block;}
+			
+			.dropdown-content
+			{
+				display: none;
+				position: absolute;
+				background-color: #2F4A63;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+			
+			.dropdown-content a
+			{
+				color:black;
+				padding:12px 16px;
+				text-decoration: none;
+				display:block;
+				text-align: left;
+			}
+			
+			.dropdown-content a:hover
+			{background-color: #f1f1f1}
+			
+			.dropdown:hover .dropdown-content
+			{display: block;}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>StudentBank</h1>
+			<a href="firstpage.html"><img src="images/sblogo.jpg" style="width:105px;height:70px"></a>
+		</header>
+		
+		<div id="Menu">
+		<ul>
+			<li class="dropdown">
+				<a href="#Personalbanking" class="dropbtn">Personal Banking</a>
+				<div class="dropdown-content">
+					<a href="personal banking.html">Personal Banking</a>
+					<a href="deposit scheme.html">Deposite Schemes</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a href="#Personalbanking" class="dropbtn">Products</a>
+				<div class="dropdown-content">
+					<a href="Account&Deposits.html">Accounts & Deposits </a>
+					<a href="loan.html">Loans</a>
+					<a href="card.html">Cards</a>
+					<a href="investment.html">Investments</a>
+					<a href="insurance.html">Insurance</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a href="#NRIservices" class="dropbtn">International<br>Banking</a>
+				<div class="dropdown-content">
+					<a href="aboutusInter.html"> About Us</a>
+					<a href="wholesale.html"> Wholesale Banking</a>
+				</div>
+			</li>
+			
+						
+			<li class="dropdown">
+				<a href="#Corporatebanking" class="dropbtn">Corporate<br>Banking</a>
+				<div class="dropdown-content">
+					<a href="gstpage.html">Pay Your GST</a>
+					<a href="corpInternetBanking.html">Corporate Internet Banking</a>
+				</div>
+			</li>
+		</ul>
+		</div>
+		
+		
+		<footer>
+			<span class="pull-right">
+				<a href="aboutUs.html" target="_blank">About Us</a>
+				| 
+				<a href="contactUs.html" target="_blank">Contact us</a>
+				| 
+				<a href="disclaimer.html" target="_blank">Disclaimer</a>
+			</span>
+		</footer>
+	</body>
+</html>
